@@ -105,7 +105,7 @@
     </div>
     <div class="xl:mx-48 lg:mx-20 mx-10">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <div class="relative overflow-hidden rounded-lg h-[300px] sm:h-[400px] group">
+            <div class="relative overflow-hidden h-[300px] sm:h-[400px] group">
                 <div class="absolute inset-0">
                     <img 
                         src="{{ asset('assets/images/3.png')}}" 
@@ -133,7 +133,7 @@
     
             <div class="flex flex-col gap-4">
                 <!-- Article 1 -->
-                <div class="relative overflow-hidden rounded-lg h-[200px] sm:h-[190px] group">
+                <div class="relative overflow-hidden h-[200px] sm:h-[190px] group">
                     <div class="absolute inset-0">
                         <img 
                             src="{{ asset('assets/images/2.png')}}" 
@@ -151,7 +151,7 @@
                 </div>
     
                 <!-- Article 2 -->
-                <div class="relative overflow-hidden rounded-lg h-[200px] sm:h-[190px] group">
+                <div class="relative overflow-hidden h-[200px] sm:h-[190px] group">
                     <div class="absolute inset-0">
                         <img 
                             src="{{ asset('assets/images/1.png')}}" 

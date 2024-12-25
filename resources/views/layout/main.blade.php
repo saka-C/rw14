@@ -6,10 +6,10 @@
         <title>Website RW 14</title>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-        @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/sidebar.js', 'resources/js/navbar.js'])
+        @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/sidebar.js'])
     </head>
     <body class="bg-basecol">
-    <nav id="navbar" class="flex justify-between bg-transparent h-24 shadow-none fixed top-0 w-full z-50 transition-all duration-300">
+    <nav id="navbar" class="flex justify-between bg-white h-24 shadow-sm fixed top-0 w-full z-50 transition-all duration-300">
         <!-- Logo Section -->
         <div class="flex items-center md:pl-8 pl-2">
             <img src="{{ asset('assets/images/logo.png') }}" alt="logo" class="w-13">
@@ -21,11 +21,11 @@
 
         <!-- Desktop Menu -->
         <div class="hidden lg:flex items-center gap-6">
-            <h5><a href="#" class="hover:text-primary-500 transition-colors">Beranda</a></h5>
+            <h5><a href="/" class="hover:text-primary-500 transition-colors">Beranda</a></h5>
             <h5><a href="#" class="hover:text-primary-500 transition-colors">Struktur</a></h5>
-            <h5><a href="#" class="hover:text-primary-500 transition-colors">Layanan</a></h5>
+            <h5><a href="/layanan" class="hover:text-primary-500 transition-colors">Layanan</a></h5>
             <h5><a href="#" class="hover:text-primary-500 transition-colors">Demografis</a></h5>
-            <h5><a href="#" class="hover:text-primary-500 transition-colors">Kelembagaan</a></h5>      
+            <h5><a href="/kelembagaan" class="hover:text-primary-500 transition-colors">Kelembagaan</a></h5>      
         </div>
 
         <!-- Login Button -->
